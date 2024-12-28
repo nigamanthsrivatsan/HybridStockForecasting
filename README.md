@@ -2,7 +2,7 @@
 
 This study presents a hybrid approach to stock price forecasting by integrating sentiment analysis from social media with traditional time-series forecasting models. By combining VADER and Zero-Shot Text Classification for sentiment analysis with ARIMA, XGBoost, and LSTM for stock price prediction, this study explores the relationship between public discourse volume and the utility of sentiment in stock market predictions.
 
----
+--- 
 
 ## **Overview**
 This repository accompanies the research paper titled _"Using LLM to Predict Stock Price: A Hybrid Model Combining Social Media Sentiment and Market Data"_ It includes:
@@ -46,7 +46,7 @@ Begin with the `exploratory_data_analysis.ipynb` notebook to analyze the dataset
 Run the `data_preprocessing.ipynb` notebook to clean and prepare the datasets. This is essential for further steps.
 
 3. **Complete the model comparison (optional):**
-To compare the 2 sentiment analysis models (VADER & Zero Shot Text Classification) and 3 time series models (ARIMA, XGBoost, and LSTM) and obtain the graphs, tables, and confusion matrices used in the research paper, run the `sentient_models_comparison.ipynb` and `time_series_models_comparison.ipynb`
+To compare the 2 sentiment analysis models (VADER & Zero Shot Text Classification) and 3 time series models (ARIMA, XGBoost, and LSTM) and obtain the graphs, tables, and confusion matrices used in the research paper, run the `sentient_models_comparison.ipynb` file. 
 
 4. **Execute the models:**
 Run the `model_execution.ipynb` notebook to execute the models and print the RMSEs of the time series models and different feature sets, representing the improvement in accuracy upon adding sentiment. 
